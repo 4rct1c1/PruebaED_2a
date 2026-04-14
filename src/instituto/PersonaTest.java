@@ -1,108 +1,108 @@
 package instituto;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
-class PersonaTest {
+public class PersonaTest {
 
-	@BeforeAll
-	static void setUpBeforeClass() throws Exception {
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
 	}
 
-	@AfterAll
-	static void tearDownAfterClass() throws Exception {
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
 	}
 
-	@BeforeEach
-	void setUp() throws Exception {
+	@Before
+	public void setUp() throws Exception {
 	}
 
-	@AfterEach
-	void tearDown() throws Exception {
+	@After
+	public void tearDown() throws Exception {
 	}
 
 	@Test
-	void testPersona() {
+	public void testPersona() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testPersonaInt() {
+	public void testPersonaInt() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testPersonaIntStringCharIntIntInt() {
+	public void testPersonaIntStringCharIntIntInt() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testGetNif() {
+	public void testGetNif() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testSetNif() {
+	public void testSetNif() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testGetNombre() {
+	public void testGetNombre() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testSetNombre() {
+	public void testSetNombre() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testGetGenero() {
+	public void testGetGenero() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testSetGenero() {
+	public void testSetGenero() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testGetNacimiento() {
+	public void testGetNacimiento() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testSetNacimiento() {
+	public void testSetNacimiento() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testGetEdad() {
+	public void testGetEdad() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testToString() {
+	public void testToString() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testEqualsPersona() {
+	public void testEqualsPersona() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testEqualsObject() {
+	public void testEqualsObject() {
 		fail("Not yet implemented");
 	}
 
 	@Test
-	void testCompareTo() {
+	public void testCompareTo() {
 		fail("Not yet implemented");
 	}
 
